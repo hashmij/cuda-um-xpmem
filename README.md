@@ -1,5 +1,8 @@
 This repo contains the basic benchmarks that can serve as proof-of-concept to 
-test out the functioning of the GPU-CPU based memory sharing via XPMEM.
+test out the functioning of the GPU-CPU based memory sharing via CUDA unified 
+memory and XPMEM's cross-attach-memory. The idea was to access and perform 
+operations on GPU memory from a remote process.
+
 I wrote these benchmarks to develop my understanding and answer the following 
 questions:
 
@@ -15,5 +18,5 @@ memory.
 communication runtimes by exploiting CUDA Managed Memory and XPMEM feature for 
 both NVLINK as well as non-NVLINK based systems?
 
-- In this repo, I'll try to address these questions by writing different benchmarks 
-and test-cases. 
+Contact: Jahanzeb Hashmi
+jahanzeb [dot] maqbool [at] gmail [dot] com
